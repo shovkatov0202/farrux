@@ -1,0 +1,123 @@
+.ota{
+    display: flex;
+   
+   text-align: center;
+   justify-content: center;
+   margin-top: 2%;
+   gap: 20px;
+   grid-template-columns: auto;
+}
+
+
+.card-bod{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.card-boy{
+    margin-top: 3%;
+
+}
+  header{
+    width: 100%;
+    height: max-content;
+    padding: 40px 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+.ong{
+    width: 30%;
+}
+
+.ongw{
+    width: 30%;
+}
+
+.fchyu{
+    width: 60%;
+}
+
+.alo{
+    width: 60%;
+}
+
+.xtech{
+    display: flex;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+    margin-left: 5%;
+}
+
+.kotta{
+    display: flex;
+    gap: 65%;
+}
+
+.card{
+    border: none !important;
+}
+
+
+
+
+
+@media all and (max-width: 843px){
+    .ota{
+        padding: 0 40%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
+
+@media all and (max-width: 611px){
+    .ota{
+        padding: 0 50%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+}
+
+
+
+@media all and (max-width: 1329px){
+    header{
+        width: 100%;
+        height: max-content;
+        flex-direction: column-reverse;
+       
+        text-align: center;
+    }
+    .fchyu{
+        text-align: center;
+        margin-left: 20%;
+    }
+}
+
+
+@media all and (max-width: 990px){
+.xtech{
+display: unset;
+text-align: center;
+margin-left: 20%;
+}
+.ongw{
+    margin-left: 19%;
+    width: 25%;
+}
+.alo{
+    margin-left: 20%;   
+}
+}
